@@ -50,4 +50,3 @@ Ionic CLI can build the frontend into static HTML/CSS/JavaScript files. These fi
 ```bash
 ionic build
 ```
-***
