@@ -16,4 +16,4 @@ before_install:
   - sudo mv ./kubectl /usr/local/bin/kubectl
 
 install:
-  - echo `udagram-k8s-cluster`
+  - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
